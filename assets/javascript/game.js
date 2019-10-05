@@ -20,6 +20,7 @@ let userGuessElement = document.getElementById("guesses-so-far");
 // Set initial value for HTML variables
 
 winsElement.innerHTML = wins;
+losesElement.innerHTML = losses;
 guessesLeftElement.innerHTML = guessesLeft;
 
 alert("Welcome to The Psychic Game, the game where it's your job to psychically guess what letter the computer is thinking! Please select any key from a to z to start the game and make your first guess.");
